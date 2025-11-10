@@ -33,6 +33,7 @@ We explored and compared the following five models:
 ### 3 Baseline Model
 - After splitting into train and test, we trained 2 models (**Linear Regression** and **Decision Tree Regerssor**) on the training data and evaluated their performance on the test data set
 - Here are their **RMSE**
+  
 | Model                        | RMSE   |
 |------------------------------|--------|
 | Decision Tree Regressor      | 118.46 |
@@ -41,6 +42,7 @@ We explored and compared the following five models:
 
 ### 4 Ensemble Techniques For Bias and Variance Reduction
 - I used **Bagging** and **Boosting** to respective check how reduction in **variance and bias** and here are the results :
+  
 | Model                        | RMSE   |
 |------------------------------|--------|
 | Decision Tree Regressor      | 118.46 |
