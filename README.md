@@ -20,4 +20,15 @@ We explored and compared the following five models:
 4. **Gradient Boosting Regressor** 
 5. **Stacking Regressor**
 
+## Methodology
+### 1. Data Loading and Feature Engineering
 
+- After loading the dataset using **pandas** library first step is to **drop** the irrelevant columns (`instant, dteday, casual, and registered.`)
+-  Didnt check for null values as mentioned in data description there are no missing valaues
+- And there are categorical variables in the dataset (`eason', 'yr', 'mnth', 'hr', 'holiday', 'weekday', 'workingday', 'weathersit`) These are converted into **numerical** features using **OneHot Encoding**
+
+### 2 Train Test Split
+- After obtaining the clean and processed data from `step-1` splitted the preprocessed data into training and testing sets using `train_test_split` library from sklearn
+
+### 3 Baseline Model
+- After splitting into train and test we evaluated 2 models 
